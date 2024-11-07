@@ -1,0 +1,141 @@
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+:root{
+    --main-black    : black;
+}
+
+
+.registration__logo{
+   margin-left: 450px;
+   margin-top: 87px;
+   height: 167px;
+   width: 507px;
+}
+
+.registration__window{
+    margin: 0 auto;
+    background-color: var(--main-black);
+    width: 540px;
+    height: 504px;
+    border-radius: 39px;
+}
+.registration__title{
+    text-align: center;
+    padding-top: 16px;
+    color: white;
+    font-size: 34px;
+    font-family: Bowly-one-sc;
+    margin-bottom: 0;
+}
+.registration__input__title{
+    margin-left: 64px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-family: Bowly-one-sc;
+    color: white;
+}
+.registration__input{
+    font-size: 20px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    margin-left: 60px;
+    width: 420px;
+    height: 53px;
+    background-color: #fff;
+}
+.registration__btn{
+    background-color: #fff;
+    color: var(--main-black);
+    font-size: 22px;
+    font-family: Bowly-one-sc;
+    width: 245px;
+    height: 45px;
+    margin-left: 150px;
+    margin-top: 38px;
+    transition: all 0.6s;
+    a{
+        text-decoration: none;
+        color: var(--main-black);
+    }
+}
+.registration__other{
+    margin-left: 174px;
+    font-size: 18px;
+    margin-bottom: 0;
+    font-family: Bowly-one-sc;
+    color: white;
+    transition: all 0.6s;
+    &:last-child{
+        padding-bottom: 23px;
+    }
+}
+.registration__btn:hover{
+    background-color: var(--main-black);
+    a{
+        color: #fff;
+    }
+    border: 1px solid white;
+}
+#SignUp{
+    margin-left: 230px;
+    margin-top: 0;
+}
+.registration__other:hover{
+    transform: scale(1.05);
+    a{
+        transform: scale(1.05);
+    }
+}
+
+@media(max-width: 768px){
+    .registration__logo{
+        width: 350px;
+        height: 115px;
+        margin-top: 188px;
+        margin-left: 41px;
+    }
+    .registration__window{
+        width: 368px;
+        height: 345px;
+        margin-left: 31px;
+        margin-top: 35px;
+    }
+    .registration__title{
+        margin-top: 23px;
+    }
+    .registration__input__title{
+        font-size: 12px;
+        margin-left: 42px;
+    }
+    .registration__input{
+        width: 290px;
+        height: 30px;
+        margin-left: 41px;
+    }
+    .registration__btn{
+        width: 167px;
+        height: 30px;
+        font-size: 14px;
+        margin-left: 100px;
+        margin-top: 26px;
+    }
+    .registration__other{
+        font-size: 12px;
+        margin-left: 119px;
+        margin-top: 16px;
+    }
+    #SignUp{
+        font-size: 12px;
+        margin-left: 149px;
+        margin-top: 26px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .container{
+        width: 440px;
+    }
+}

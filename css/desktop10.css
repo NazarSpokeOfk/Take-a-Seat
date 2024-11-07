@@ -1,0 +1,268 @@
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+:root {
+  --main-black: black;
+}
+.header__links {
+  display: flex;
+  gap: 57px;
+  align-content: center;
+  margin-left: 550px;
+  margin-top: -55px;
+  font-family: Bowly-one-sc;
+}
+.header__link {
+  font-size: 28px;
+  color: var(--main-black);
+  text-decoration: none;
+}
+
+.header__logo {
+  position: relative; /* Add this to make z-index effective */
+  margin-top: 24px;
+  cursor: pointer;
+  z-index: 5; /* This should now be effective */
+  margin-left: -220px;
+}
+.header__logout {
+  display: block;
+  font-size: 28px;
+  font-family: Bowly-one-sc;
+  text-decoration: none;
+  color: var(--main-black);
+  margin-left: 1250px;
+  margin-top: -43px;
+}
+
+.header__aside {
+  position: absolute;
+  width: 284px;
+  background: #000;
+  height: 110%;
+  top: -10px;
+  left: -10px;
+  z-index: 1; /* Lower z-index to ensure it stays behind */
+}
+
+.aside__profile {
+  color: white;
+  font-size: 40px;
+  font-family: Bowly-one-sc;
+  margin-top: 217px;
+  margin-left: 27px;
+  margin-bottom: 0;
+  transition:all 0.6s
+}
+.aside__profile:hover{
+  transform: scale(1.05);
+}
+
+.aside__newtake {
+  color: white;
+  font-size: 40px;
+  font-family: Bowly-one-sc;
+  margin-top: 25px;
+  margin-left: 27px;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+.aside__termsofuse {
+  font-size: 20px;
+  font-family: Bowly-one-sc;
+  color: white;
+  margin-top: 400px;
+  margin-left: 62px;
+}
+
+.header__name {
+  display: block;
+  font-size: 24px;
+  font-family: Bowly-one-sc;
+  text-decoration: none;
+  color: var(--main-black);
+  margin-left: 1130px;
+  margin-top: -40px;
+  margin-right: 10px;
+}
+.take__block {
+  margin-left: 30%;
+  margin-top: 5%;
+  select {
+    width: 507px;
+    height: 36px;
+    box-shadow: 0 4px 4px 5px rgba(0, 0, 0, 0.25);
+    background: #fff;
+  }
+}
+.take__title {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: Bowly-one-sc;
+  margin-bottom: 0;
+}
+#newtake {
+  font-size: 40px;
+}
+
+.take__button {
+  margin-top: 26px;
+  color: white;
+  background-color: #000;
+  font-size: 31px;
+  font-family: Bowly-one-sc;
+  width: 269px;
+  height: 65px;
+  cursor: pointer;
+  padding: 10px;
+  transition:all 0.6s
+}
+.take__button:hover{
+  color:var(--main-black);
+  background-color: #fff;
+}
+.thanksmodal {
+  opacity: 0;
+  position: relative;
+  margin-top: 256px;
+  margin-left: 740px;
+  border: 1px solid var(--main-black);
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+  height: 102px;
+  transition: all 0.6s;
+}
+.text__title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: var(--main-black);
+  margin-top: 0;
+}
+.text__descr {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: var(--main-black);
+}
+.thanksmodal__text {
+  margin-left: 48px;
+  margin-top: -25px;
+}
+.thanksmodal__check {
+  margin-left: 16px;
+  margin-top: 16px;
+}
+.thanksmodal__close {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  left: 275px;
+  bottom: 80px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 440px;
+  }
+  .header__aside {
+    width: 40%;
+  }
+  .header__logo {
+    width: 130px;
+    height: 45px;
+    margin-left: 10px;
+  }
+  .aside__profile {
+    font-size: 20px;
+  }
+  .aside__newtake {
+    font-size: 20px;
+  }
+  #newtake {
+    font-size: 20px;
+    margin-left: 40px;
+  }
+  .header__link {
+    font-size: 12px;
+  }
+  .header__links {
+    margin-left: 180px;
+    margin-top: -50px;
+    gap: 20px;
+  }
+  #newtake {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .aside__profile {
+    margin-top: 150px;
+  }
+  .header__logout {
+    margin-left: 350px;
+    font-size: 12px;
+    margin-top: -18px;
+  }
+  .take__title {
+    font-size: 10px;
+    margin-left: 50px;
+  }
+  #event-select {
+    width: 200px;
+    height: 20px;
+    margin-left: 50px;
+  }
+  #time-select {
+    width: 200px;
+    height: 20px;
+    margin-left: 50px;
+  }
+  #additional {
+    width: 200px;
+    height: 20px;
+    margin-left: 50px;
+  }
+  .take__button {
+    width: 140px;
+    height: 32px;
+    font-size: 16px;
+    padding: 0;
+    margin-left: 50px;
+  }
+  .aside__termsofuse {
+    font-size: 10px;
+    margin-top: 500px;
+  }
+  .thanksmodal {
+    width: 115px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 50px;
+    padding: 0;
+  }
+  .text__title {
+    margin-top: 5px;
+    font-size: 6px;
+  }
+  .text__descr {
+    font-size: 6px;
+  }
+  .thanksmodal__close {
+    width: 7px;
+    height: 7px;
+  }
+  .thanksmodal__check {
+    display: none;
+  }
+  .thanksmodal__text {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+}

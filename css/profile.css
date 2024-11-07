@@ -1,0 +1,179 @@
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+:root{
+    --main-black    : black;
+}
+.header__links{
+    display: flex;
+    gap: 57px;
+    align-content: center;
+    margin-left: 550px;
+    margin-top: -55px;
+    font-family: Bowly-one-sc;
+}
+.header__link{
+    font-size: 28px;
+    color: var(--main-black);
+    text-decoration: none;
+}
+
+.header__logo {
+    position: relative; /* Add this to make z-index effective */
+    margin-top: 24px;
+    cursor: pointer;
+    z-index: 5; /* This should now be effective */
+    margin-left: -235px;
+}
+.header__logout{
+    display: block;
+    font-size: 28px;
+    font-family: Bowly-one-sc;
+    text-decoration: none;
+    color: var(--main-black);
+    margin-left: 1250px;
+    margin-top: -60px;
+}
+
+.header__aside {
+    position: absolute;
+    width: 284px;
+    background: #000;
+    height: 110%;
+    top: -10px;
+    left: -10px;
+    z-index: 1; /* Lower z-index to ensure it stays behind */
+}
+
+.aside__profile{
+    color: white;
+    font-size: 40px;
+    font-family: Bowly-one-sc;
+    margin-top: 217px;
+    margin-left: 27px;
+    margin-bottom: 0;
+}
+
+.aside__newtake{
+    color: white;
+    font-size: 40px;
+    font-family: Bowly-one-sc;
+    margin-top: 25px;
+    margin-left: 28px;
+}
+
+.aside__termsofuse{
+    font-size: 20px;
+    font-family: Bowly-one-sc;
+    color: white;
+    margin-top: 400px;
+    margin-left: 62px;
+}
+
+.header__name{
+    display: block;
+    font-size: 24px;
+    font-family: Bowly-one-sc;
+    text-decoration: none;
+    color: var(--main-black);
+    margin-left: 1130px;
+    margin-top: -40px;
+    margin-right: 10px;
+}
+.profile__block{
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.profile__title{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: Bowly-one-sc;
+    margin-bottom: 0;
+}
+#profile{
+    font-size: 40px;
+}
+
+.profile__info{
+    font-size: 24px;
+    font-family: BriemHand;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.profile__button{
+    margin-top: 26px;
+    color: white;
+    background-color: #000;
+    font-size: 31px;
+    font-family: Bowly-one-sc;
+    width: 145px;
+    height: 65px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+@media(max-width: 768px){
+    .container{
+        width: 440px;
+    }
+    .header__aside{
+        width: 40%;
+        height: 100%;
+    }
+    .header__logo{
+        margin-left: 7px;
+        width: 120px;
+        height: 45px;
+    }
+    .aside__profile{
+        font-size: 20px;
+        margin-top: 120px;
+    }
+    .aside__newtake{
+        font-size: 20px;
+    }
+    .aside__termsofuse{
+        font-size: 10px;
+    }
+    .header__link{
+        font-size: 12px;
+    }
+    .header__links{
+        gap: 20px;
+        margin-left: 176px;
+    }
+    .header__name{
+        font-size: 12px;
+        margin-left: 340px;
+        margin-top: 10px;
+    }
+    .header__logout{
+        font-size: 12px;
+        margin-left: 340px;
+        margin-top: -55px;
+    }
+    #profile{
+        font-size: 20px;
+        margin-top: 56px;
+        margin-left: 30px;
+    }
+    .profile__title{
+        font-size: 12px;
+        margin-left: 30px;
+    }
+    .profile__info{
+        font-size: 12px;
+        margin-left: 30px;
+    }
+    .profile__button{
+        width: 70px;
+        height: 30px;
+        font-size: 15px;
+        margin-left: 30px;
+    }
+}

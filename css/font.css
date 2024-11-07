@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Bowly-one-sc";
+    src: url("../fonts/BowlbyOneSC-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+     }
+
+    @font-face {
+    font-family: "Bowly-one-sc";
+    src: url("../fonts/BowlbyOneSC-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    @font-face {
+        font-family: "BriemHand";
+        src: url("../fonts/BriemHand-VariableFont_wght.ttf") format("truetype");
+        font-style: normal;
+        font-weight: normal;
+         }
+
+        @font-face {
+        font-family: "BriemHand";
+        src: url("../fonts/BriemHand-VariableFont_wght.ttf") format("truetype");
+        font-style: normal;
+        font-weight: normal;
+        }

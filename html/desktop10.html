@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/desktop10.css">
+    <link rel="stylesheet" href="../css/font.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="../main.html"><img src="../images/Group 2.png" alt="take a seat" class="header__logo"></a>
+            <aside>
+                <div class="header__aside">
+                    <h2 class="aside__profile"><a href="../html/desktop7.html">profile</a></h2>
+                    <h2 class="aside__newtake">New take</h2>
+                    <h2 class="aside__termsofuse">terms of use</h2>
+                </div>
+            </aside>
+            <div class="header__links">
+                <a href="#" id="main" class="header__link">Main</a>
+                <a href="order.html" class="header__link">Order</a>
+                <a href="more.html" class="header__link">More</a>
+            </div>
+            <a href="registration.html" class="header__logout">log out</a>
+        </div>
+    </header>
+    <div class="take__block">
+        <h2 id="newtake" class="take__title">
+            New take
+        </h2>
+        <h3 class="take__title">
+            Select the type of event
+        </h3>
+        <form class="eventselect">
+            <select name="city" class="select">
+              <option value=""></option>
+              <option value="Theater">Theater</option>
+              <option value="Concert">Concert</option>
+              <option value="Museum">Museum</option>
+            </select>
+          </form>
+        <h3 class="take__title">
+            Select the time and date of the event:
+        </h3>
+        <form>
+            <select name="city" class="select">
+              <option value=""></option>
+              <option value="18:00 21.07">18:00 21.07</option>
+              <option value="19:00 21.07">19:00 21.07</option>
+              <option value="20:00 22.08">20:00 22.08</option>
+            </select>
+          </form>
+        <h3 class="take__title">
+            Select an additional option:
+        </h3>
+        <form>
+            <select name="city" class="select">
+              <option value=""></option>
+              <option value="nope">nope</option>
+              <option value="Im disabled">Im disabled</option>
+            </select>
+          </form>
+        <button type="submit" class="take__button">
+            Take a seat
+        </button>
+        <div class="thanksmodal">
+            <img src="../images/Check.svg" alt="check" class="thanksmodal__check">
+            <div class="thanksmodal__text">
+                <h3 class="text__title">
+                    The place is booked.
+                </h3>
+                <p class="text__descr">
+                    The space for your event has been successfully booked.
+                </p>
+            </div>
+        </div>
+        <script src="../js/thanksmodal.js"></script>
+</body>
+</html>
+<form>
