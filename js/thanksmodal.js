@@ -13,17 +13,17 @@ triggerBtn.addEventListener("click", (e) => {
               e.preventDefault();
               modalTitle.innerText = "You haven't filled out the form";
               modalText.innerText = "Please, fill all fields";
-              modal.style.opacity = "1"; // Display modal for validation error
+              modal.style.opacity = "1";
               statusIcon.src = "../images/X.svg";
                       setTimeout(() => {
-                        modal.style.opacity = "0"; // Hide modal after a delay
+                        modal.style.opacity = "0"; 
                       }, 2000);
           } else {
               statusIcon.src = "../images/Check.svg";
               modalTitle.innerText = "Form submitted successfully!";
-              modal.style.opacity = "1"; // Display modal for successful submission
+              modal.style.opacity = "1";
               setTimeout(() => {
-                modal.style.opacity = "0"; // Hide modal after a delay
+                modal.style.opacity = "0"; 
               }, 2000);
             }
   });
