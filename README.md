@@ -1,29 +1,40 @@
-### Greetings!
+### Take-a-Seat
 
-### Technology:<br>
+### 🛠️ Технологии:<br>
 
 - HTML<br>
 - CSS<br>
 - JS<br>
 
-### Description:
+### 📒 Описание:
 <br>
-This website is built with pure HTML,JS and CSS.<br>
-On this website you can book a place.<br>
-On this site I have done form validation, and also pseudo profile editing.<br>
-This website is also has a mobile adaptation (~430x640px).
+Этот сайт создан с использованием только HTML, JS и CSS. <br>
+На этом сайте можно забронировать место.<br>
+На этом сайте я реализовал проверку данных в формах, а также функцию редактирования псевдопрофиля.<br>
+Сайт также адаптирован для мобильных устройств (~430x640 пикселей).<br>
 
-### How it looks like: <br>
+### 📺 Превью: <br>
 https://github.com/user-attachments/assets/c964d73e-10ce-433c-99ba-f28341386ea2
 
-### Mobile adaptation : <br>
+### 🤳 Мобильная адаптация : <br>
 <img width="430" alt="Снимок экрана 2024-11-07 в 10 35 45 PM" src="https://github.com/user-attachments/assets/c273f38a-1667-441c-817e-3f60f0bef35b">
-<br>
+---
 <img width="430" alt="Снимок экрана 2024-11-07 в 10 36 30 PM" src="https://github.com/user-attachments/assets/264715c5-64c7-4ba1-9e7e-951eb14b4bac">
 
-### Instructions:
+### 🚀 Настройка и запуск:
 <br>
-1. Download or pull the repository to your computer<br>
-2. The project is completely ready out of the box.<br>
-3. Enjoy the website.
+
+```bash
+git clone https://github.com/NazarSpokeOfk/Take-a-Seat
+```
+Проект можно запустить просто открыв index.html, или воспользоваться утилитой, на пример - Live Server в Visual Studio Code.
+
+## 🪪 **Лицензия**
+
+Лицензия MIT - не стесняйтесь изучать или использовать этот код на свой страх и риск.
+
+
+## **Автор**
+
+**Spokeofk**
 
